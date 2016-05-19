@@ -16,13 +16,13 @@ public class BaseFragment extends Fragment {
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        print("onDetach");
+        print("onAttach");
     }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        print("onDetach");
+        print("onCreate");
     }
 
     @Nullable
@@ -35,43 +35,43 @@ public class BaseFragment extends Fragment {
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        print("onDetach");
+        print("onActivityCreated");
     }
 
     @Override
     public void onStart() {
         super.onStart();
-        print("onDetach");
+        print("onStart");
     }
 
     @Override
     public void onResume() {
         super.onResume();
-        print("onDetach");
+        print("onResume");
     }
 
     @Override
     public void onPause() {
         super.onPause();
-        print("onDetach");
+        print("onPause");
     }
 
     @Override
     public void onStop() {
         super.onStop();
-        print("onDetach");
+        print("onStop");
     }
 
     @Override
     public void onDestroyView() {
         super.onDestroyView();
-        print("onDetach");
+        print("onDestroyView");
     }
 
     @Override
     public void onDestroy() {
         super.onDestroy();
-        print("onDetach");
+        print("onDestroy");
     }
 
     @Override

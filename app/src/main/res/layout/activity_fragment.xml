@@ -23,6 +23,30 @@
         android:onClick="remove"
         android:text="移除fragment"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="hide"
+        android:text="隐藏fragment"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="show"
+        android:text="显示fragment"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="replace"
+        android:text="替换fragment"/>
+
+    <fragment
+        android:id="@+id/example_fragment"
+        android:name="com.yuntao.testlifecircle.fragment.ExampleFragment"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
     <LinearLayout
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"

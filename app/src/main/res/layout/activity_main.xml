@@ -32,4 +32,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="弹出alert dialog"/>
+
+    <Button
+        android:id="@+id/btn_jump_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="进入fragment的Activity"/>
 </LinearLayout>

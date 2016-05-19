@@ -1,6 +1,7 @@
 package com.yuntao.testlifecircle.activity;
 
 import android.app.AlertDialog;
+import android.app.Fragment;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -41,6 +42,13 @@ public class MainActivity extends BaseActivity {
                 dialog.setTitle("我是弹窗");
                 dialog.setMessage("诗酒风流束带结发撩是斗非连接速度浪费精力速度快的");
                 dialog.show();
+            }
+        });
+        findViewById(R.id.btn_jump_fragment).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, FragmentActivity.class);
+                startActivity(intent);
             }
         });
     }

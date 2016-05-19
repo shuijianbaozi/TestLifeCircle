@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 
 import com.yuntao.testlifecircle.R;
 
-public class ExampleFragment extends BaseFragment {
+public class DetailFragment extends BaseFragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -21,7 +21,7 @@ public class ExampleFragment extends BaseFragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public ExampleFragment() {
+    public DetailFragment() {
         // Required empty public constructor
     }
 
@@ -34,8 +34,8 @@ public class ExampleFragment extends BaseFragment {
      * @return A new instance of fragment ExampleFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static ExampleFragment newInstance(String param1, String param2) {
-        ExampleFragment fragment = new ExampleFragment();
+    public static DetailFragment newInstance(String param1, String param2) {
+        DetailFragment fragment = new DetailFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
