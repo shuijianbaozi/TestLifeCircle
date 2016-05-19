@@ -1,0 +1,2 @@
+# TestLifeCircle
+测试Activity与Fragment的生命周期
