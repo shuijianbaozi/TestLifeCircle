@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="com.yuntao.testlifecircle"
-          xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yuntao.testlifecircle">
 
     <application
         android:allowBackup="true"
@@ -10,22 +10,19 @@
         android:theme="@android:style/Theme.Holo">
         <activity android:name=".activity.MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.DetailActivity"/>
+        <activity android:name=".activity.DetailActivity" />
         <activity
             android:name=".activity.TransparentActivity"
-            android:theme="@style/Transparent">
-        </activity>
+            android:theme="@style/Transparent"/>
         <activity
             android:name=".activity.DialogActivity"
-            android:theme="@android:style/Theme.Holo.Dialog">
-        </activity>
-        <activity android:name=".activity.FragmentActivity">
-        </activity>
+            android:theme="@android:style/Theme.Holo.Dialog"/>
+        <activity android:name=".activity.FragmentActivity"/>
     </application>
 
 </manifest>
